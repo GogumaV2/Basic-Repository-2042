@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aplikasi prototype muka hadapan</title>
+	<style type="text/css">
+		body {
+			background-color: red;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			height: 100vh;
+		}
+		
+		* {
+			margin: 0;
+
+		}
+		.header {
+    width: 100%;
+    background-color: #28292b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+`
+		.navbar {
+			display: flex;
+			justify-content: center;
+			padding: 20px 0;
+		}
+		.navbar a {
+			margin: 0 150px;
+
+		}
+		.content {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			width: 80%;
+			max-width: 1200px;
+			margin-top: 20px;
+		}
+		.form-container {
+			display: flex;
+			flex-direction: column;
+			flex: 1;
+			padding: 20px;
+			border-radius: 5px;
+		}
+		.form-container h1 {
+			text-align: center;
+		}
+		.form-container table {
+			margin: 0 auto;
+		}
+		.form-container td {
+			padding: 10px;
+		}
+		.form-container input {
+			width: 100%;
+			padding: 8px;
+			font-size: 16px;
+			margin-bottom: 10px;
+		}
+		.form-container button {
+			width: 100%;
+			padding: 10px;
+			font-size: 18px;
+			background-color: yellow;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.footer {
+			background-color: yellow;
+			text-align: center; 	
+			padding: 20px 0;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+<div class="header">
+	<img src="KasutBolaAdodo.png">
+</div>
+
+<div class="navbar" style="padding-top: 10px">
+	<a href="halaman_utama.html"><img src="button_home.png" width="180px"></a>
+	<a href="halaman_shoes_collection.html"><img src="button_shoes_collection.png" width="300px"></a>
+	<a href="halaman_account.html"><img src="button_account.png" width="200px"></a>
+</div>
+
+<div class="content">
+	<div class="form-container">
+		<h1>Login</h1>
+		<table>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" placeholder="Enter your username"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" placeholder="Enter your password"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button type="submit"><img src="button_submit.png"></button></td>
+			</tr>
+		</table>
+	</div>
+	<div class="form-container">
+		<h1>Register</h1>
+		<table>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" placeholder="Choose a username"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" placeholder="Choose a password"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button type="submit"><img src="button_submit.png"></button></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div class="footer">
+	<footer><h2>About Us<br>Email: KasutAdodo@gmail.com</h2></footer>
+</div>
+</body>
+</html>	
